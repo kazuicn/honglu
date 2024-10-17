@@ -40,7 +40,7 @@ span.spell {
     --hue: 181;
     --name: "Hong Lu";
     --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/honglusihere..png");
-    --charahead: url("");
+    --charahead: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/honglusihere..png");
 }
 
 [character="Aira"] {
