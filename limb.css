@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@1,400;1,700&display=swap');
+
+[mt="normal"], [mt="rare"] {
+    display: inline-block;
+    width: 25px;
+    height: 29.28px;
+    margin: 0 10px -8px 0 !important;
+    background-size: cover;
+}
+
+[mt="normal"] {
+    background-image: url("https://cdn.jsdelivr.net/gh/watatomo/img/enst/talkevent_normal.png");
+}
+
+[mt="rare"] {
+    background-image: url("https://cdn.jsdelivr.net/gh/watatomo/img/enst/talkevent_rare.png");
+}
+
+span.spell {
+    font-family: 'Almendra', serif !important;
+    letter-spacing: .015em;
+    font-size: 1.1em;
+    line-height: 1.3;
+}
+
+@media (min-width: 1200px) {
+    [character] p>span.spell {
+        font-size: 1.15em;
+    }
+}
+
+[character="Anzu"] {
+    --color: #ffb6da;
+    --hue: 330.4;
+    --name: "Anzu";
+}
+
+[character="Hong"] {
+    --color: #5BFFDE;
+    --hue: 181;
+    --name: "Hong Lu";
+    --icon: url("https://static.wikia.nocookie.net/limbuscompany/images/a/a7/Hong_Lu_StoryLog.png/revision/latest?cb=20230404162311");
+    --charahead: url("");
+}
+
+[character="Aira"] {
+    --color: #fff1cf;
+    --hue: 42.5;
+    --name: "Aira";
+    --icon: url("https://cdn.jsdelivr.net/gh/enstars/img/icon/aira.png");
+    --charahead: url("https://cdn.jsdelivr.net/gh/enstars/img/charahead/aira.png");
+}
