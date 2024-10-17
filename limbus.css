@@ -42,6 +42,13 @@ span.spell {
     --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
 }
 
+[character="Dong"] {
+    --color: #5BFFDE;
+    --hue: 112;
+    --name: "Dongrang";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/dongrang.png");
+}
+
 [character="Aira"] {
     --color: #fff1cf;
     --hue: 42.5;
