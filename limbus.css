@@ -55,25 +55,28 @@ span.spell {
     --name: "Ishmael";
     --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/ihsmael.png");
 }
+
 [character="Dante"] {
     --color: #5BFFDE;
     --hue: 181;
     --name: "Dante";
     --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
 }
+
 [character="Faust"] {
     --color: #5BFFDE;
     --hue: 181;
     --name: "Faust";
     --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
 }
+
 [character="Meursault"] {
     --color: #5BFFDE;
     --hue: 181;
     --name: "Meursault";
     --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
-    
 }
+
 [character="Sinclair"] {
     --color: #5BFFDE;
     --hue: 181;
