@@ -140,6 +140,13 @@ span.spell {
     --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
 }
 
+[character="Hong"] {
+    --color: #5BFFDE;
+    --hue: 181;
+    --name: "Hong Lu";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
+}
+
 [character="Aira"] {
     --color: #fff1cf;
     --hue: 42.5;
