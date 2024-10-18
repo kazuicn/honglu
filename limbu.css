@@ -40,7 +40,6 @@ span.spell {
     --hue: 181;
     --name: "Hong Lu";
     --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
-    --charahead: url("https://cdn.jsdelivr.net/gh/enstars/img/charahead/himeru.png");
 }
 
 [character="Dong"] {
@@ -58,8 +57,8 @@ span.spell {
 }
 
 [character="Dante"] {
-    --color: #5BFFDE;
-    --hue: 181;
+    --color: #000000;
+    --hue: 0;
     --name: "Dante";
     --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
 }
@@ -79,12 +78,12 @@ span.spell {
 }
 
 [character="Sinclair"] {
-    --color: #5BFFDE;
-    --hue: 181;
+    --color: #8b9c15;
+    --hue: 68;
     --name: "Sinclair";
     --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
-    
 }
+
 [character="Outis"] {
     --color: #5BFFDE;
     --hue: 181;
@@ -93,8 +92,8 @@ span.spell {
 }
 
 [character="Ryoshu"] {
-    --color: #5BFFDE;
-    --hue: 181;
+    --color: #cf0000;
+    --hue: 0;
     --name: "Ryoshu";
     --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
 }
@@ -130,28 +129,41 @@ span.spell {
 [character="Vergilius"] {
     --color: #5BFFDE;
     --hue: 181;
-    --name: "Don Quixote";
+    --name: "Vergilius";
     --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
 }
 
 [character="Charon"] {
     --color: #5BFFDE;
     --hue: 181;
-    --name: "Don Quixote";
+    --name: "Charon";
     --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
 }
 
-[character="Hong"] {
-    --color: #5BFFDE;
-    --hue: 181;
-    --name: "Hong Lu";
+[character="Pawnbroker"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Pawnbroker";
     --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
 }
 
-[character="Aira"] {
-    --color: #fff1cf;
-    --hue: 42.5;
-    --name: "Aira";
-    --icon: url("https://cdn.jsdelivr.net/gh/enstars/img/icon/aira.png");
-    --charahead: url("https://cdn.jsdelivr.net/gh/enstars/img/charahead/aira.png");
+[character="Effie"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Effie";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
+}
+
+[character="Saude"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Saude";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
+}
+
+[character="Huan"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Jia Huan";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
 }
