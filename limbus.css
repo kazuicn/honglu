@@ -64,15 +64,15 @@ span.spell {
 }
 
 [character="Faust"] {
-    --color: #5BFFDE;
-    --hue: 181;
+    --color: #ffbfb4;
+    --hue: 9;
     --name: "Faust";
     --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
 }
 
 [character="Meursault"] {
-    --color: #5BFFDE;
-    --hue: 181;
+    --color: #293b95;
+    --hue: 230;
     --name: "Meursault";
     --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
 }
@@ -99,8 +99,8 @@ span.spell {
 }
 
 [character="Heathcliff"] {
-    --color: #5BFFDE;
-    --hue: 181;
+    --color: #4e3076;
+    --hue: 266;
     --name: "Heathcliff";
     --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
 }
