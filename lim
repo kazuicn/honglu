@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@1,400;1,700&display=swap');
+
+[mt="normal"], [mt="rare"] {
+    display: inline-block;
+    width: 25px;
+    height: 29.28px;
+    margin: 0 10px -8px 0 !important;
+    background-size: cover;
+}
+
+[mt="normal"] {
+    background-image: url("https://cdn.jsdelivr.net/gh/watatomo/img/enst/talkevent_normal.png");
+}
+
+[mt="rare"] {
+    background-image: url("https://cdn.jsdelivr.net/gh/watatomo/img/enst/talkevent_rare.png");
+}
+
+span.spell {
+    font-family: 'Almendra', serif !important;
+    letter-spacing: .015em;
+    font-size: 1.1em;
+    line-height: 1.3;
+}
+
+@media (min-width: 1200px) {
+    [character] p>span.spell {
+        font-size: 1.15em;
+    }
+}
+
+[character="Anzu"] {
+    --color: #ffb6da;
+    --hue: 330.4;
+    --name: "Anzu";
+}
+
+[character="Hong"] {
+    --color: #5BFFDE;
+    --hue: 181;
+    --name: "Hong Lu";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/honglu.png");
+}
+
+[character="HongY"] {
+    --color: #5BFFDE;
+    --hue: 181;
+    --name: "Hong Lu (Young-Ji)";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
+}
+
+[character="HongDet"] {
+    --color: #5BFFDE;
+    --hue: 181;
+    --name: "Hong Lu";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/detlu.png");
+}
+
+[character="HongP"] {
+    --color: #5BFFDE;
+    --hue: 181;
+    --name: "Hong Lu";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/hongluplay.png");
+}
+
+[character="Dong"] {
+    --color: #5BFFDE;
+    --hue: 112;
+    --name: "Dongrang";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/dongrang.png");
+}
+
+[character="Ishmael"] {
+    --color: #ff9500;
+    --hue: 35;
+    --name: "Ishmael";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/ishmael.png");
+}
+
+[character="Dante"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Dante";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/dante.png");
+}
+
+[character="Faust"] {
+    --color: #ffbfb4;
+    --hue: 9;
+    --name: "Faust";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/faust.png");
+}
+
+[character="Meursault"] {
+    --color: #293b95;
+    --hue: 230;
+    --name: "Meursault";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/meursault.png");
+}
+
+[character="Sinclair"] {
+    --color: #8b9c15;
+    --hue: 68;
+    --name: "Sinclair";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/sinclair.png");
+}
+
+[character="Outis"] {
+    --color: #5BFFDE;
+    --hue: 181;
+    --name: "Outis";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/outis.png");
+}
+
+[character="Ryoshu"] {
+    --color: #cf0000;
+    --hue: 0;
+    --name: "Ryoshu";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/ryoshu.png");
+}
+
+[character="RyoshuDet"] {
+    --color: #cf0000;
+    --hue: 0;
+    --name: "Ryoshu";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/ryoshudet.png");
+}
+[character="Heathcliff"] {
+    --color: #4e3076;
+    --hue: 266;
+    --name: "Heathcliff";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/heathcliff.png");
+}
+
+[character="HeathcliffChick"] {
+    --color: #4e3076;
+    --hue: 266;
+    --name: "Heathcliff";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/heathchicken.png");
+}
+
+[character="HeathcliffGent"] {
+    --color: #4e3076;
+    --hue: 266;
+    --name: "Heathcliff";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/heathchicken.png");
+}
+    
+[character="Rodion"] {
+    --color: #5BFFDE;
+    --hue: 181;
+    --name: "Rodion";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
+}
+
+[character="RodionDet"] {
+    --color: #5BFFDE;
+    --hue: 181;
+    --name: "Rodion";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/rodiondet.png");
+}
+
+[character="Gregor"] {
+    --color: #69350b;
+    --hue: 27;
+    --name: "Gregor";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/gregor.png");
+}
+
+[character="Don"] {
+    --color: #5BFFDE;
+    --hue: 181;
+    --name: "Don Quixote";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
+}
+
+[character="Yi Sang"] {
+    --color: #d4dfe8;
+    --hue: 207;
+    --name: "Yi Sang";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/yi%20sang.png");
+}
+
+[character="Vergilius"] {
+    --color: #5BFFDE;
+    --hue: 181;
+    --name: "Vergilius";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/vergilius.png");
+}
+
+[character="Charon"] {
+    --color: #5BFFDE;
+    --hue: 181;
+    --name: "Charon";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
+}
+
+[character="Pawnbroker"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Pawnbroker";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/pawnbroker.png");
+}
+
+[character="Effie"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Effie";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/effie.png");
+}
+
+[character="Saude"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Saude";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
+}
+
+[character="Huan"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Jia Huan";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/jia%20huan.png");
+}
+
+[character="Priest"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Priest";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/priest.png");
+}
+
+[character="Barber"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Barber";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/barber.png");
+}
+
+[character="Romero"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Romero";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/romero.png");
+}
+
+[character="Hugo"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Hugo";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/hugo.png");
+}
+
+[character="Wei"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Wei";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/wei.png");
+}
+
+[character="Xichun"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Jia Xichun";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/xichun.png");
+}
+
+[character="Bumble"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Bumble";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/bumble.png");
+}
+
+[character="Aeng"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Aeng";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/aeng.png");
+}
+
+[character="Ahab"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Ahab";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/ahab.png");
+}
+
+[character="Starbuck"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Starbuck";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/starbuck.png");
+}
+
+[character="Rim"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Rim";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/rim.png");
+}
+
+[character="Marile"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Marile";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/marile.png");
+}
+
+[character="Dongbaek"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Dongbaek";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/dongbaek.png");
+}
+
+[character="Yurodiviye Captain"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Yurodiviye Captain";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/yurodiviyecaptain.png");
+}
+
+[character="Nelly"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Nelly";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/nelly.png");
+}
+
+[character="Hubert"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Hubert";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/hubert.png");
+}
+
+[character="Caiman"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Caiman";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/caiman.png");
+}
+    
+[character="Ripper"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Time Ripper";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/time%20ripper.png");
+}
+
+[character="IDK"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "???";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/caiman.png");
+}
