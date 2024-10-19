@@ -207,7 +207,7 @@ span.spell {
     --color: #000000;
     --hue: 0;
     --name: "Saude";
-    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/saude.png");
 }
 
 [character="Huan"] {
@@ -347,5 +347,19 @@ span.spell {
     --color: #000000;
     --hue: 0;
     --name: "???";
-    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/caiman.png");
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/other.png");
+}
+    
+[character="Ripper"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Time Ripper";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/time%20ripper.png");
+}    
+
+[character="Ripper"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Time Ripper";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/time%20ripper.png");
 }
