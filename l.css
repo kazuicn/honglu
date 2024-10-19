@@ -144,7 +144,7 @@ span.spell {
     --color: #5BFFDE;
     --hue: 181;
     --name: "Rodion";
-    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/testtt.png");
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/rodion.png");
 }
 
 [character="RodionDet"] {
