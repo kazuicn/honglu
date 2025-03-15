@@ -350,12 +350,75 @@ span.spell {
     --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/other.png");
 }
     
+[character="Kashira"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Kashira";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/other.png");
+}    
+
+[character="Excision Management Staff"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Excision Management Staff";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/other.png");
+}
+
+[character="Wincing Intruder"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Wincing Intruder";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/other.png");
+}
+
+[character="Disciplined Lackey"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Disciplined Lackey";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/other.png");
+}
+
+[character="Bloodfiend"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Bloodfiend";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/other.png");
+}
+
+[character="Tense Colleague"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Tense Colleague";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/other.png");
+}
+
 [character="Ripper"] {
     --color: #000000;
     --hue: 0;
     --name: "Time Ripper";
     --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/time%20ripper.png");
-}    
+}
+
+[character="Ripper"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Time Ripper";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/time%20ripper.png");
+}
+
+[character="Ripper"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Time Ripper";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/time%20ripper.png");
+}
+
+[character="Ripper"] {
+    --color: #000000;
+    --hue: 0;
+    --name: "Time Ripper";
+    --icon: url("https://cdn.jsdelivr.net/gh/kazuicn/honglu@main/icons/time%20ripper.png");
+}
 
 [character="Ripper"] {
     --color: #000000;
